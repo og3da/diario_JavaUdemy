@@ -1,0 +1,13 @@
+Estrutura de uma aplicação java:
+
+- java é uma linguagem OO
+- todo codigo em java deve estar dentro de uma classe
+- package é um agrupamento lógico de classes relacionadas
+
+- para executar um código em java ele deve ter no minimo essa estrutura:
+
+public class Main {
+    public static void main(String[] args){
+        //codigo
+    }
+}
