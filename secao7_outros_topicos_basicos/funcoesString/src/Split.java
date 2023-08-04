@@ -1,0 +1,17 @@
+public class Split {
+    public static void main(String[] args) {
+
+        // FUNÇÃO SPLIT
+        // essa função separa a string de acordo com o separador definido
+        String s = "potato apple lemon";
+        String[] vect = s.split(" ");
+
+        String word1 = vect[0];
+        String word2 = vect[1];
+        String word3 = vect[2];
+
+        System.out.println(word1);
+        System.out.println(word2);
+        System.out.println(word3);
+    }
+}
