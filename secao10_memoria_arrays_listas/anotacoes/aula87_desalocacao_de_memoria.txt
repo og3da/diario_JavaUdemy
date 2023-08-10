@@ -1,0 +1,5 @@
+desalocação de memoria:
+
+foi explicado sobre o escopo de variaveis e como elas funcionam na memoria.
+Variaveis do tipo referencia (classes) sao criadas e executadas em tempo real. E também quando deixa de ser utilizado algum valor, esse valor é desalocado pelo garbage collector.
+Já variaveis do tipo primitivo são descartadas logo apos seu uso.

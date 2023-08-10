@@ -1,0 +1,9 @@
+Classes são tipos referência:
+Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim
+“tentáculos” (ponteiros) para caixas.
+É chamado de ponteiro pois o valor dessa variável é o endereço de memória em que estão alocados seus atributos (valores).
+Variaveis que sao classes podem conter null e inicializam com os valores padrao (0, null, false).
+
+Tipos primitivos são tipos valor:
+Ou seja, tipos primitivos são variaveis como String, int, etc.
+Elas nao aceitam null.
