@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aulas/bloco-finally/bloco-finally.iml" filepath="$PROJECT_DIR$/aulas/bloco-finally/bloco-finally.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aulas/estrutura-try-catch/estrutura-try-catch.iml" filepath="$PROJECT_DIR$/aulas/estrutura-try-catch/estrutura-try-catch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aulas/pilha-de-chamadas/pilha-de-chamadas.iml" filepath="$PROJECT_DIR$/aulas/pilha-de-chamadas/pilha-de-chamadas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/secao15_tratamento_excecoes.iml" filepath="$PROJECT_DIR$/.idea/secao15_tratamento_excecoes.iml" />
+    </modules>
+  </component>
+</project>
