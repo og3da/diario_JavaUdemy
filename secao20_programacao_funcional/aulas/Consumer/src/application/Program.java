@@ -15,7 +15,7 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        list.forEach(Product::staticPriceUpdate); // fazendo referencia ao metodo da classe
+        list.forEach(Product::nonStaticPriceUpdate); // fazendo referencia ao metodo da classe
 
         list.forEach(System.out::println);
     }
