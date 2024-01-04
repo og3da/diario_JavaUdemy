@@ -24,7 +24,7 @@ public class Program {
 
            collect(Collectors.toList()): converte em lista uma stream
          */
-        List<String> names = list.stream().map(Product::staticNameToUpperCase).collect(Collectors.toList());
+        List<String> names = list.stream().map(Product::nonStaticNameToUpperCase).collect(Collectors.toList());
 
         names.forEach(System.out::println);
     }
