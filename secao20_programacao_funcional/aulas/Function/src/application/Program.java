@@ -26,10 +26,8 @@ public class Program {
            collect(Collectors.toList()): converte em lista uma stream
          */
 
-        // expressao lambda declarada
-        Function<Product, String> name = p -> p.getName().toUpperCase();
-
-        List<String> names = list.stream().map(name).collect(Collectors.toList());
+        // expressao lambda in-line
+        List<String> names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
 
         names.forEach(System.out::println);
     }
