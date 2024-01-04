@@ -5,6 +5,7 @@ import util.NameUpdate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Program {
@@ -24,7 +25,11 @@ public class Program {
 
            collect(Collectors.toList()): converte em lista uma stream
          */
-        List<String> names = list.stream().map(Product::nonStaticNameToUpperCase).collect(Collectors.toList());
+
+        // expressao lambda declarada
+        Function<Product, String> name = p -> p.getName().toUpperCase();
+
+        List<String> names = list.stream().map(name).collect(Collectors.toList());
 
         names.forEach(System.out::println);
     }
