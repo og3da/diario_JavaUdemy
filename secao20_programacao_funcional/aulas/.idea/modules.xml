@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/FuncoesRecebendoFuncoesArg/FuncoesRecebendoFuncoesArg.iml" filepath="$PROJECT_DIR$/FuncoesRecebendoFuncoesArg/FuncoesRecebendoFuncoesArg.iml" />
       <module fileurl="file://$PROJECT_DIR$/Function/Function.iml" filepath="$PROJECT_DIR$/Function/Function.iml" />
       <module fileurl="file://$PROJECT_DIR$/Predicate/Predicate.iml" filepath="$PROJECT_DIR$/Predicate/Predicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/aulas.iml" filepath="$PROJECT_DIR$/.idea/aulas.iml" />
     </modules>
   </component>
