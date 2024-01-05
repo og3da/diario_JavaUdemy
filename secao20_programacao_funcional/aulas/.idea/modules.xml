@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Consumer/Consumer.iml" filepath="$PROJECT_DIR$/Consumer/Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FuncoesRecebendoFuncoesArg/FuncoesRecebendoFuncoesArg.iml" filepath="$PROJECT_DIR$/FuncoesRecebendoFuncoesArg/FuncoesRecebendoFuncoesArg.iml" />
       <module fileurl="file://$PROJECT_DIR$/Function/Function.iml" filepath="$PROJECT_DIR$/Function/Function.iml" />
       <module fileurl="file://$PROJECT_DIR$/Predicate/Predicate.iml" filepath="$PROJECT_DIR$/Predicate/Predicate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/aulas.iml" filepath="$PROJECT_DIR$/.idea/aulas.iml" />
