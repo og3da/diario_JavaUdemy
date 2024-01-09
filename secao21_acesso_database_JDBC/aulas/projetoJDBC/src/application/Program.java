@@ -33,7 +33,7 @@ public class Program {
         }*/
 
         // INSERINDO DADOS
-        PreparedStatement st = null;
+        /*PreparedStatement st = null;
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         try {
@@ -68,6 +68,32 @@ public class Program {
             throw new DbException(e.getMessage());
         } catch (ParseException e) {
             e.printStackTrace();
+        } finally {
+            DB.closeStatement(st);
+            DB.closeConnection();
+        }*/
+
+        // ATUALIZANDO DADOS
+        PreparedStatement st = null;
+
+        try {
+            conn = DB.getConnection();
+
+            // comando SQL
+            st = conn.prepareStatement(
+                    "UPDATE seller "
+                            + "SET BaseSalary = BaseSalary + ? "
+                            + "WHERE "
+                            + "(DepartmentId = ?)"
+            );
+
+            st.setDouble(1, 200);
+            st.setInt(2, 2);
+
+            int rowsAffected = st.executeUpdate();
+            System.out.println("done, rows affected: " + rowsAffected);
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage());
         } finally {
             DB.closeStatement(st);
             DB.closeConnection();
