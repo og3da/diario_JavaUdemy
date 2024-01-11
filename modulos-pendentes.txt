@@ -1,14 +1,10 @@
 secao11 - Java data&hora
 secao12 - GIT (2h15)
-secao15 - tratamento de exceções (1h46)
 secao16 - Projeto xadrez
 secao17 - Trabalhando com arquivos
-secao20 - Programação funcional (2h04)
-secao21 - Acesso a banco com JDBC (3h52)
-secao22 - JavaEE Mapeamento de objRelacional JPA (54m)
 secao24 - Projeto: API RESTful SpringBoot e MongoDB NoSQL
 secao25 - Interface grafica JavaFX
 
 --- quero fazer:
-secao22, secao15, secao21, secao20
+
 
